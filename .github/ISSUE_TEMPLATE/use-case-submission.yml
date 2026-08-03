@@ -11,6 +11,7 @@ body:
     attributes:
       value: Please update `SUBJECT` in the title with a title for the submission.
   - type: dropdown
+    id: submission_category
     attributes:
       label: Submission Category
       description: Pick the option closest to the type of request you have.
@@ -21,7 +22,8 @@ body:
         - Solution (an existing standard or a solution the contributor has created)
     validations:
       required: true
-   - type: dropdown
+  - type: dropdown
+    id: topic_category
     attributes:
       label: Topic Category
       description: Which area does this primarily relate to? 
@@ -31,6 +33,7 @@ body:
         - Discovery
         - Tax
         - Card Acceptance
+        - Other
     validations:
       required: true
   - type: input
@@ -41,6 +44,7 @@ body:
     validations:
       required: false
   - type: textarea
+    id: description
     attributes:
       label: Description
       description: Please provide the details of your submission here.
@@ -55,8 +59,9 @@ body:
     validations:
       required: false
   - type: input
+    id: stakeholders
     attributes:
-      label: List key stakholders
+      label: List key stakeholders
       description: Please provide the primary and secondary stakeholders.
     validations:
       required: true
