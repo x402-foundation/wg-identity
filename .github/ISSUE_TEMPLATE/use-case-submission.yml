@@ -9,9 +9,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
-        xx
-        Please update `SUBJECT` in the title with a title for the submission.
+      value: Please update `SUBJECT` in the title with a title for the submission.
   - type: dropdown
     attributes:
       label: Submission Category
