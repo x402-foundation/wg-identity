@@ -1,0 +1,65 @@
+name: Use Case Submission
+description: | 
+ Form for submitting use cases, problem statements, threats, or solutions.
+title: "SUBJECT - Use Case"
+labels: ["use case"]
+assignees: 
+  - naomi-wash
+  - carmen-viloria
+  - rohinlohe
+body:
+  - type: markdown
+    attributes:
+      value: |
+        xx
+        Please update `SUBJECT` in the title with a title for the submission.
+  - type: dropdown
+    attributes:
+      label: Submission Category
+      description: Pick the option closest to the type of request you have.
+      multiple: false
+      options:
+        - Use Case or Problem Statement
+        - Requirement or Threat (e.g., sybil attack, privacy leak)
+        - Solution (an existing standard or a solution the contributor has created)
+    validations:
+      required: true
+   - type: dropdown
+    attributes:
+      label: Topic Category
+      description: Which area does this primarily relate to? 
+      multiple: false
+      options:
+        - Identity
+        - Discovery
+        - Tax
+        - Card Acceptance
+    validations:
+      required: true
+  - type: input
+    id: topic_other
+    attributes:
+      label: "If 'Other' Topic, please specify"
+      description: "Only fill this out if you selected 'Other' in the dropdown above."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Description
+      description: Please provide the details of your submission here.
+    validations:
+      required: true
+  - type: input
+    id: reference_link
+    attributes:
+      label: Reference Link
+      description: Optional link to a standards page, documentation, or relevant resource.
+      placeholder: https://...
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: List key stakholders
+      description: Please provide the primary and secondary stakeholders.
+    validations:
+      required: true
