@@ -1,6 +1,5 @@
 name: Use Case Submission
-description: | 
- Form for submitting use cases, problem statements, threats, or solutions.
+description: Form for submitting use cases, problem statements, threats, or solutions.
 title: "SUBJECT - Use Case"
 labels: ["use case"]
 assignees: 
