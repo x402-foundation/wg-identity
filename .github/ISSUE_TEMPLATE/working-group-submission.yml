@@ -1,6 +1,6 @@
 name: Identity WG submission
 description: Form for submitting use cases, problem statements, threats, or solutions.
-title: "SUBJECT - Use Case"
+title: "SUBMISSION TYPE - Title"
 labels: ["use case"]
 assignees: 
   - naomi-wash
@@ -9,7 +9,8 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: Please update `SUBJECT` in the title with a title for the submission.
+      value: Please replace `SUBMISSION TYPE` in the title above with your chosen submission category
+      followed by your submission title.
   - type: dropdown
     id: submission_category
     attributes:
@@ -22,13 +23,6 @@ body:
         - Solution (an existing standard or a solution the contributor has created)
     validations:
       required: true
-  - type: input
-    id: topic_other
-    attributes:
-      label: "If 'Other' Topic, please specify"
-      description: "Only fill this out if you selected 'Other' in the dropdown above."
-    validations:
-      required: false
   - type: textarea
     id: description
     attributes:
@@ -47,7 +41,7 @@ body:
   - type: input
     id: affiliation
     attributes:
-      label: Organization or affiliation 
+      label: Organization or Affiliation 
       description: Please share your organization or relevant affiliation. 
     validations:
       required: true
