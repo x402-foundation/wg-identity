@@ -9,8 +9,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: Please replace `SUBMISSION TYPE` in the title above with your chosen submission category
-      followed by your submission title.
+      value: Please replace `SUBMISSION TYPE` in the title above with your chosen submission category followed by your submission title.
   - type: dropdown
     id: submission_category
     attributes:
