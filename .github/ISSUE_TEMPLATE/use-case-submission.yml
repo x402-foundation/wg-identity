@@ -1,4 +1,4 @@
-name: Use Case Submission
+name: Identity WG submission
 description: Form for submitting use cases, problem statements, threats, or solutions.
 title: "SUBJECT - Use Case"
 labels: ["use case"]
@@ -20,20 +20,6 @@ body:
         - Use Case or Problem Statement
         - Requirement or Threat (e.g., sybil attack, privacy leak)
         - Solution (an existing standard or a solution the contributor has created)
-    validations:
-      required: true
-  - type: dropdown
-    id: topic_category
-    attributes:
-      label: Topic Category
-      description: Which area does this primarily relate to? 
-      multiple: false
-      options:
-        - Identity
-        - Discovery
-        - Tax
-        - Card Acceptance
-        - Other
     validations:
       required: true
   - type: input
@@ -59,9 +45,9 @@ body:
     validations:
       required: false
   - type: input
-    id: stakeholders
+    id: affiliation
     attributes:
-      label: List key stakeholders
-      description: Please provide the primary and secondary stakeholders.
+      label: Organization or affiliation 
+      description: Please share your organization or relevant affiliation. 
     validations:
       required: true
