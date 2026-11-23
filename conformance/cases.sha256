@@ -1,0 +1,2 @@
+# sha256 of the case file run.py builds, one line per package release it was read from
+2aec50beb2166ea1e95b5f8ca4c99280d84f4fac7f864f7100fbcc74754feb52  probity-records==0.6.0 (78 cases, 14 accepted, 64 refused)

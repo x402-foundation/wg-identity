@@ -1,0 +1,5 @@
+# Reference cases for agent identity carried in an RFC 9421 HTTP message signature, and the
+# verifier that judges them. Pins are exact: a new release arrives as a Dependabot pull request,
+# and run.py fails that pull request until cases.sha256 lists the digest of the new cases.
+probity-records==0.6.0
+agent-evidence-verify==0.9.0
